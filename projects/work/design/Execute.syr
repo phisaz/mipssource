@@ -1,0 +1,173 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.24 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.25 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: Execute.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Execute.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Execute"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-ft256
+
+---- Source Options
+Top Module Name                    : Execute
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : Execute.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Rocco/Desktop/MIPS/MIPS2/full_adder.vhd" in Library work.
+Architecture full_adder_behav of Entity full_adder is up to date.
+Compiling vhdl file "C:/Users/Rocco/Desktop/MIPS/MIPS2/cla_four.vhd" in Library work.
+Architecture cla4_dataflow of Entity cla_four is up to date.
+Compiling vhdl file "C:/Users/Rocco/Desktop/MIPS/MIPS2/rca.vhd" in Library work.
+Architecture behavioral_rca of Entity rca is up to date.
+Compiling vhdl file "C:/Users/Rocco/Desktop/MIPS/MIPS2/adder_subtracter.vhdl" in Library work.
+Architecture behavioral of Entity adder_subtracter is up to date.
+Compiling vhdl file "C:/Users/Rocco/Desktop/MIPS/MIPS2/multiplier.vhdl" in Library work.
+Architecture behaviour of Entity multiplier is up to date.
+Compiling vhdl file "C:/Users/Rocco/Desktop/MIPS/MIPS2/divider.vhdl" in Library work.
+Architecture behaviour of Entity divider is up to date.
+Compiling vhdl file "C:/Users/Rocco/Desktop/MIPS/MIPS2/program_counter.vhdl" in Library work.
+Architecture pcarch of Entity program_counter is up to date.
+Compiling vhdl file "C:/Users/Rocco/Desktop/MIPS/MIPS2/ALU.vhdl" in Library work.
+Architecture behavior of Entity alu is up to date.
+Compiling vhdl file "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" in Library work.
+Entity <iExecute> compiled.
+ERROR:HDLParsers:3010 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 23. Entity Execute does not exist.
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 26. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 26. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 27. Undefined symbol 'STD_LOGIC_VECTOR'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 27. STD_LOGIC_VECTOR: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 30. Undefined symbol 'std_logic_vector'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 30. std_logic_vector: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 38. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 38. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 39. Undefined symbol 'std_logic_vector'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 39. std_logic_vector: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. Undefined symbol 'opcode'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. opcode: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. Undefined symbol 'regs'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. regs: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. Undefined symbol 'regd'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. regd: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. Undefined symbol 'regt'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. regt: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. Undefined symbol 'sham'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. sham: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. Undefined symbol 'func'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. func: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. Undefined symbol 'imm'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. imm: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. Undefined symbol 'res'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. res: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1202 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 45. Redeclaration of symbol alu.
+ERROR:HDLParsers:3313 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 47. Undefined symbol 'clock'.  Should it be: block?
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 47. clock: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 47. Undefined symbol 'reset'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 47. reset: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 52. Undefined symbol 'op_code'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 52. op_code: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 54. Undefined symbol 'reg_s'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 54. reg_s: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 55. Undefined symbol 'reg_d'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 55. reg_d: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 56. Undefined symbol 'reg_t'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 56. reg_t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 57. Undefined symbol 'Shift_amount'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 57. Shift_amount: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 58. Undefined symbol 'fun'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 58. fun: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 59. Undefined symbol 'Sign_extend'.
+ERROR:HDLParsers:1209 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 59. Sign_extend: Undefined symbol (last report in this block)
+WARNING:HDLParsers:1406 - "C:/Users/Rocco/Desktop/MIPS/MIPS2/iExecute.vhdl" Line 47. No sensitivity list and no wait in the process
+--> 
+
+Total memory usage is 137088 kilobytes
+
+Number of errors   :   46 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,526 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="EN"><head><title>Welcome to E*TRADE - LOG ON</title>
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="hilp123_files/prospect.css">
+<style type="text/css">
+<!--
+  #etMain {width:100%;text-align:center;background:url(https://a248.e.akamai.net/n/248/1777/20071129.0/www.etrade.com/images/prospect/main_bg.gif) repeat-y;margin-top:0;padding-top:0;}
+  #etContainer {width:984px;margin:0 auto;text-align:left;background:url(https://a248.e.akamai.net/n/248/1777/20071129.0/www.etrade.com/images/prospect/ctnt_bg.jpg) repeat-y;background-color:#FFF;padding-left:7px;}
+  #etHeader {height:67px;background:url(https://a248.e.akamai.net/n/248/1777/20071129.0/www.etrade.com/images/prospect/topBG200.jpg) 0 0 repeat-x;}
+  #ftGrad {position:absolute;left:-20px;top:0px;width:20px;height:25px;background:url(https://a248.e.akamai.net/n/248/1777/20071129.0/www.etrade.com/images/prospect/footgrad.gif) 0 0 no-repeat;}
+  #etLoginBox {width:180px;float:right;background:url(https://a248.e.akamai.net/n/248/1777/20071129.0/www.etrade.com/images/prospect/login_box_top.jpg) no-repeat;padding-top:23px;margin-left:10px;}
+  #pNav ul.subNav li, #pNav ul.subNavgrnBorder li {background:url(https://a248.e.akamai.net/n/248/1777/20071129.0/www.etrade.com/images/prospect/lnav_bg_sec.gif) 1% 40% no-repeat;}
+  .dotLine {background:url(https://a248.e.akamai.net/n/248/1777/20071129.0/www.etrade.com/images/prospect/dotLine.gif) repeat-x; height: 1px;}
+  #introBox {background: url(https://a248.e.akamai.net/n/248/1777/20071129.0/www.etrade.com/images/prospect/OurSolutions.gif) no-repeat 0 100%; float: left; width: 749px; margin: 0; padding: 0;}
+  .subheaderLeft ul {list-style: none url(https://a248.e.akamai.net/n/248/1777/20071129.0/www.etrade.com/images/prospect/bullet_green.gif);padding: 3px 0 10px 0; margin: 5px 0 5px 25px;}
+  select {width: 135px;}
+  .disclaimer {font-size:11px;}
+  
+#LOB {width: 100%;margin-top:10px; padding:0;}
+#LOB td {padding:0px; width: 200px}
+#LOB .rtBrd {width: 2px;background:url(https://a248.e.akamai.net/n/248/1777/20071129.0/www.etrade.com/images/prospect/vertical_dot.gif) repeat-y;} 
+#LOBul { list-style-type:none;  margin:0px; padding:0px;}
+#LOBul li {  background:url(https://a248.e.akamai.net/n/248/1777/20071129.0/www.etrade.com/images/prospect/small_check.gif) 0% 5% no-repeat; padding-left:25px;}
+  
+-->
+</style><!--[if IE 7]>
+<style type="text/css">
+  a.nav {padding-bottom:3px;}
+  #pNav li {margin-top:-3px;}
+  #pNav li a.navSel,#pNav li a.navSelgrnBorder,#pNav li a.navSelgrnBorder:hover {height:20px;}
+  #pNav ul.subNav,#pNav ul.subNavgrnBorder {margin-bottom:4px;padding-bottom:0px;padding-top:8px;}
+  #pNav ul.subNav li,#pNav ul.subNavgrnBorder li {padding-bottom:3px;}
+  #navBrd {position:absolute;border-top:1px solid #CCC;height:1px;left:7px;top:-5px;width:181px;}
+  .w100 {width:99%;}
+  .subheaderRight {width: 365px; float: left; padding-bottom: 10px !important;}  
+</style>
+<![endif]-->
+
+
+
+<script type="text/javascript">var famSelTab=''; var famTab=''; var familymenus=""; var userType="VISITOR"; var ACQFlag=""; var applicationname="user";</script>
+<script type="text/javascript" src="hilp123_files/prospect_nav.js"></script>
+<script type="text/javascript" src="hilp123_files/prospect_nav_urls.js"></script>
+<script type="text/javascript" src="hilp123_files/global_nav.js"></script>
+<script type="text/javascript" src="hilp123_files/nav.js"></script>
+<script type="text/javascript">
+  addLoadEvt(brkFrm);
+  function inputFocus(){
+ 	if(document.LOGIN_FORM.USER) 
+ 	{
+     	document.LOGIN_FORM.USER.focus();
+     	return true;
+ 	}
+  }  
+</script>
+<style type="text/css">
+#ifldSrchTxt {color:#7f7f7f; width:130px; float: left; font-size:10px; font-weight:normal; margin:2px 0 2px 0; padding-left: 2px; padding-right: 1px; text-align:left; height:15px}
+#ifldSymTxt {color:#7f7f7f; width:109px; float: left; font-size:10px; font-weight:normal; margin:2px 0 2px 0; padding-top: 2px; padding-left: 2px; padding-right: 1px; text-align:left; height:15px}
+#ifldQuoTxt {color:#7f7f7f; width:160px; float: left; font-size:10px; font-weight:normal; margin:2px 0 2px 0; padding-top: 2px; padding-left: 2px; padding-right: 1px; text-align:left; height:15px}
+</style></head><body onload="inputFocus()">
+  <div id="etMain">
+    <div id="etContainer">
+      <div id="etHeader">
+        <!--HEADER-->
+        <script type="text/javascript">
+function ghostText() {
+var srchFld=document.mainsrch.searchtext;
+  if(srchFld.value=='Enter Question or Keywords') {
+   srchFld.value=''; srchFld.style.fontSize="13px"; srchFld.style.fontweight="normal"; srchFld.style.color="#000000"; srchFld.style.paddingLeft="1px"; srchFld.style.paddingRight="2px"; srchFld.style.width="130px"; srchFld.style.height="15px";
+  }else if(srchFld.value==''){
+   srchFld.value='Enter Question or Keywords'; srchFld.style.fontSize="10px"; srchFld.style.color="#7f7f7f"; srchFld.style.padding="3px 1px 0 2px"; srchFld.style.width="130px"; srchFld.style.height="15px";
+  }
+}
+function ghostQuoteText() {
+var quoteFld=document.quote.sym;
+  if(quoteFld.value=='Enter Symbol or Name') {
+   quoteFld.value=''; quoteFld.style.fontSize="13px"; quoteFld.style.fontweight="normal"; quoteFld.style.color="#000000"; quoteFld.style.paddingLeft="1px"; quoteFld.style.paddingRight="2px"; quoteFld.style.width="109px"; quoteFld.style.height="15px";
+  }else if(quoteFld.value==''){
+   quoteFld.value='Enter Symbol or Name'; quoteFld.style.fontSize="10px"; quoteFld.style.color="#7f7f7f"; quoteFld.style.padding="3px 1px 0 2px"; quoteFld.style.width="109px"; quoteFld.style.height="15px";
+  }
+}
+ 
+function ghostQuoteMarket() {
+var quoteWidgetFld=document.get_Quote.sym;
+  if(quoteWidgetFld.value=="Enter Symbol(s) or Name") {
+   quoteWidgetFld.value=''; quoteWidgetFld.style.fontSize="13px"; quoteWidgetFld.style.fontweight="normal"; quoteWidgetFld.style.color="#000000"; quoteWidgetFld.style.paddingLeft="1px"; quoteWidgetFld.style.paddingRight="2px"; quoteWidgetFld.style.width="160px"; quoteWidgetFld.style.height="15px";
+  }else if(quoteWidgetFld.value==''){
+   quoteWidgetFld.value="Enter Symbol(s) or Name"; quoteWidgetFld.style.fontSize="10px"; quoteWidgetFld.style.color="#7f7f7f"; quoteWidgetFld.style.padding="3px 1px 0 2px"; quoteWidgetFld.style.width="160px"; quoteWidgetFld.style.height="15px";
+  }
+}
+</script>
+
+    <div id="etHeadLeft"><a href="javascript:GoToETURL('/e/t/home','etrade');"><img alt="E*TRADE FINANCIAL" src="hilp123_files/logo.gif" height="67" width="207"></a><img alt="" src="hilp123_files/topGrad.gif" height="67" width="20"></div>
+    <div id="etHeadRight">
+      <div id="subHeadForm" style="height: 35px; padding-top: 10px; padding-right: 20px;">
+        <form name="mainsrch" action="javascript:doQS(document.forms.mainsrch,'/e/t/search/prospect','searchtext');" style="margin-left: 8px; float: right;">
+          <input onblur="ghostText()" class="ifld" onfocus="ghostText()" name="searchtext" value="Enter Question or Keywords" id="ifldSrchTxt" type="text">
+          <div style="margin: 5px 0pt 0pt 5px; float: left;"><a href="javascript:document.mainsrch.submit()" style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(247, 247, 247); text-decoration: none;"><b>SEARCH</b></a></div>
+        </form>
+        <form name="quote" method="post" action="javascript:doQS(document.forms.quote,'/e/t/invest/quotesandresearch','sym');" style="margin-left: 8px; float: right;">
+          <input value="prospect" name="gateway" type="hidden">
+          <input onblur="ghostQuoteText()" class="ifld" onfocus="ghostQuoteText()" name="sym" value="Enter Symbol or Name" id="ifldSymTxt" type="text">
+          <div style="margin: 5px 0pt 0pt 5px; float: left;"><a href="javascript:document.quote.submit()" style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(247, 247, 247); text-decoration: none;"><b>QUOTES</b></a></div>
+        </form>
+
+
+
+      </div>
+      <div id="buttons" style="text-align: right; padding-right: 1em; height: 22px;">
+        <div class="aRight"><a href="javascript:GoToETURL('/e/t/welcome/customerservice','etrade');"><img alt="Customer Service" src="hilp123_files/customer_top.gif" height="22" width="133"></a></div>
+        <div class="aRight"><a href="javascript:GoToETURL('/e/t/welcome/openanaccount','etrade');"><img alt="Open An Account" src="hilp123_files/openAccount.gif" height="22" width="133"></a></div>
+        <div class="aRight"><a href="javascript:GoToETURL('/e/t/user/login','etrade');"><img alt="Logon to E*TRADE FINANCIAL" src="hilp123_files/logon.gif" height="22" width="84"></a></div>
+      </div>
+    </div>
+    <div class="clr"></div>
+      </div>  
+      <div class="clr"></div>
+      <div id="etLeftRail">
+        <div id="etRailContainer">
+          <div id="pNav"><ul><li><a class="nav" href="https://us.etrade.com/e/t/welcome/whychooseetrade"><span class="s1" onmouseover="this.style.cursor='pointer';">WHY CHOOSE E*TRADE?</span><div class="whtLn"></div></a></li><li><a class="nav" href="https://us.etrade.com/e/t/investingandtrading"><span class="s1" onmouseover="this.style.cursor='pointer';">INVESTING &amp; TRADING</span><div class="whtLn"></div></a></li><li><a class="nav" href="https://us.etrade.com/e/t/activetrading"><span class="s1" onmouseover="this.style.cursor='pointer';">ACTIVE TRADING</span><div class="whtLn"></div></a></li><li><a class="nav" href="https://us.etrade.com/e/t/toolsandresearch"><span class="s1" onmouseover="this.style.cursor='pointer';">TOOLS &amp; RESEARCH</span><div class="whtLn"></div></a></li><li><a class="nav" href="https://us.etrade.com/e/t/retirementplanning"><span class="s1" onmouseover="this.style.cursor='pointer';">RETIREMENT PLANNING</span><div class="whtLn"></div></a></li><li><a class="nav" href="https://us.etrade.com/e/t/adviceeducation"><span class="s1" onmouseover="this.style.cursor='pointer';">ADVICE &amp; EDUCATION</span><div class="whtLn"></div></a></li><li><a class="nav" href="https://us.etrade.com/e/t/banking"><span class="s1" onmouseover="this.style.cursor='pointer';">BANKING</span><div class="whtLn"></div></a></li><li><a class="nav" href="https://us.etrade.com/e/t/mortgageshomeequity"><span class="s1" onmouseover="this.style.cursor='pointer';">MORTGAGES &amp; HOME EQUITY</span><div class="whtLn"></div></a></li><li><a class="nav" href="https://us.etrade.com/e/t/pricingandrates"><span class="s1" onmouseover="this.style.cursor='pointer';">PRICING &amp; RATES</span><div class="whtLn"></div></a></li></ul><div id="navLn"><div id="navBrd"></div></div></div>
+          <!--[if IE 7]>
+<style type="text/css">
+  #locI,#locT {margin-bottom:0px}
+</style>
+<![endif]-->
+<script type="text/javascript">
+  function Visit_State(st) {
+    if (st != "" && st != null)
+      document.location.href = "javascript:GoToETURL('" + "/e/t/welcome/accessus?gxml=hm_acu_findcenter.html&state=" + st + "','etrade');";
+  }
+</script>
+<script type="text/javascript" src="hilp123_files/flash.js"> </script>
+<script type="text/javascript">
+<!--
+showSWF(7,"/flash/prospect/smoney_money_anim.swf","185","78","smoney_money_anim","tl","#ffffff","","","https://a248.e.akamai.net/n/248/1777/20071129.0/www.etrade.com/images/prospect/i_hm_smoney.gif","","186","82"); 
+-->
+</script><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" id="smoney_money_anim" align="" height="78" width="185"><param name="movie" value="https://a248.e.akamai.net/n/248/1777/akssr20071127.0/www.etrade.com/flash/prospect/smoney_money_anim.swf"><param name="salign" value="tl"><param name="wmode" value="window"><param name="menu" value="false"><param name="quality" value="high"><param name="scale" value="noscale"><param name="flashvars" value=""><param name="bgcolor" value="#ffffff"><embed src="hilp123_files/smoney_money_anim.swf" quality="high" name="smoney_money_anim" scale="noscale" salign="tl" wmode="window" menu="false" type="application/x-shockwave-flash" pluginspage="https://www.macromedia.com/go/getflashplayer" flashvars="" bgcolor="#ffffff" height="78" width="185"></object>
+<div style="margin: 0pt; padding: 0pt;">
+ <div id="locator" class="dotLine">
+  <div class="locHead">Customer Service:</div>
+  
+   <div class="locIcon"><img src="hilp123_files/icon_email_contact.gif" style="margin-top: 3px;" height="29" width="36"></div>
+  <div class="locText">
+    
+      
+        <span style="color: red; font-weight: bold; font-size: 13px;">New</span><br><a href="https://us.etrade.com/e/t/welcome/oscinstructions?SC=OSCPRSnav"><span style="font-weight: bold; font-size: 13px;">Online Service Center</span></a>
+      
+      
+    
+  </div>
+  <div class="clr dotLine" style="margin: 7px 0pt 3px;"></div>
+  <div class="locIcon"><img alt="CALL 1-800-ETRADE-1" src="hilp123_files/i_hm_call.gif" height="29" width="36"></div>
+  <div class="locText">CALL 1-800-ETRADE-1<br><span style="margin-left: 25px;">(1-800-387-2331)</span></div>
+  <div class="clr dotLine" style="margin: 5px 0pt 3px;"></div>
+   <div id="locBox">
+    <div class="locIcon" style="margin: 4px 2px 0pt 0pt;"><img alt="Find a Branch Near You" src="hilp123_files/i_hm_branch.gif" height="29" width="40"></div>
+    <div class="locText">Find a branch near you:</div>
+    <select name="state" onchange="Visit_State(this.value);">
+          <option value="">Select One:</option>
+          <option value="az">Arizona</option>
+          <option value="ca">California</option>
+          <option value="co">Colorado</option>
+          <option value="dc">District of Columbia</option>
+          <option value="fl">Florida</option>
+          <option value="ga">Georgia</option>
+          <option value="il">Illinois</option>
+          <option value="ma">Massachusetts</option>
+          <option value="mi">Michigan</option>
+	  <option value="mn">Minnesota</option>
+          <option value="ny">New York</option>
+	  <option value="nc">North Carolina</option>
+          <option value="pa">Pennsylvania</option>
+          <option value="tx">Texas</option>
+          <option value="wa">Washington</option>
+ </select>
+
+   </div>
+ </div>
+</div>
+
+        </div>
+        <script type="text/javascript">prospectMakeNav(famTab,famSelTab,'pNav');</script>
+      </div>
+      <div id="etContent">
+        <div id="etContentTop">
+      	<div id="etMainContent">	
+      	<!-- Prospect Login Page starts here -->
+<form action="/login.fcc" autocomplete="off" method="post" name="LOGIN_FORM">
+<!-- Main Table -->
+<table border="0" cellpadding="0" cellspacing="0" width="760">
+
+
+<tbody><tr>
+	<td colspan="2" align="center">
+    
+	
+    <div id="etNoticeBox" style="margin: 10px 16px;">
+    
+	<table>
+	<tbody><tr>
+		<td>
+        
+        
+        <img src="hilp123_files/bi_warningtri_eng.gif" align="absmiddle" border="0" height="26" width="26">
+        
+    	</td>
+		<td style="padding-left: 5px;" valign="middle">
+		<span style="font-family: Verdana; font-weight: bold; font-size: 10px;">For your protection, you have been logged out due to inactivity. Please log on again.	<br><br> 	You may also securely <a href="https://us.etrade.com/e/t/user/resetpasswdpageone">recover your User ID or reset your Password online</a>.</span>
+		</td>
+	</tr>
+	</tbody></table>
+	</div>
+	</td>
+</tr>
+
+
+
+<tr>
+		<td align="left">
+<table style="margin-top: 40px; margin-left: 50px ! important;" align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+	    	<td valign="top" width="220">
+    	  	<table cellpadding="0" cellspacing="0" width="210">
+        	<tbody><tr>
+          		<td colspan="2" height="42" valign="top" width="210"><span style="font-size: 18px; font-family: arial black; color: rgb(0, 0, 0);">SECURE LOG ON</span></td>
+        	</tr>
+        	<tr height="30">
+          		<td height="20" valign="top"><nobr><b>User ID:&nbsp;&nbsp;</b></nobr></td>
+          		<td valign="top"><input size="15" name="USER" style="width: 135px;" type="text"></td>
+        	</tr>
+        	<tr height="30">
+          		<td nobr="" height="20" valign="top"><b>Password:&nbsp;&nbsp;</b></td>
+          		<td valign="top"><input size="15" name="PASSWORD" style="width: 135px;" type="password"></td>
+        	</tr>
+			
+        	
+        	<tr height="30">
+          		<td height="20" valign="top"><b>Start In:&nbsp;</b></td>
+          		<td valign="top"><script language="JavaScript">
+
+function getExpire(nodays) {
+    var UTCstring;
+    Today = new Date();
+    diff=Date.parse(Today);
+    Today.setTime(diff+nodays*24*60*60*1000);
+    UTCstring = Today.toUTCString();
+    return UTCstring;
+}
+
+function getCook(cookiename) {
+    var cookiestring=""+document.cookie;
+    var index1=cookiestring.indexOf(cookiename);
+    if (index1==-1 || cookiename=="") return ""; 
+    var index2=cookiestring.indexOf(';',index1);
+    if (index2==-1) index2=cookiestring.length; 
+    return unescape(cookiestring.substring(index1+cookiename.length+1,index2))
+
+}
+
+function checkForStartInCookie() {
+  var cookieIndex = 0;
+  var cookieValue = getCook('startin');
+  for (x=0; x<document.LOGIN_FORM.TARGET.options.length; x++)
+  {
+    if(document.LOGIN_FORM.TARGET.options[x].text == cookieValue) {
+      cookieIndex = x;
+      break;
+    }
+  }
+  if(cookieIndex) {
+    document.LOGIN_FORM.TARGET.selectedIndex = cookieIndex;
+  }
+}
+
+function setStartInCookie (destination) {
+    var where,cookiestring;
+    
+    where = destination;
+    cookiestring="startin="+where+";DOMAIN=.etrade.com;PATH=/;EXPIRES="+getExpire(12000);
+
+    document.cookie=cookiestring;
+}
+
+function saveStart() {
+	  setStartInCookie(document.LOGIN_FORM.TARGET.options[document.LOGIN_FORM.TARGET.selectedIndex].text);
+}
+
+var loglist = '<select name="TARGET" style="width:100%;" onChange="javascript:saveStart();">';
+	loglist+='	<option value="/e/t/accounts/accountscombo">Accounts</option>';
+	loglist+='	<option value="/e/t/pfm/portfolioview">Portfolios</option>';
+	loglist+='	<option value="/e/t/invest/socreateentry">Stock Trade</option>';
+	loglist+='	<option value="/e/t/invest/optionorderentry">Options Trade</option>';
+	loglist+='	<option value="/e/t/invest/pethome?protect">Active Trading</option>';
+	loglist+='	<option value="/e/t/invest/markets?protect">Markets</option>';
+	loglist+='	<option value="/e/t/user/xfr?Target='+BANKUS+'/e/t/ibank/accountdetails">Bank Accounts</option>';
+	loglist+='	<option value="/e/t/user/xfr?Target='+BANKUS+'/e/t/accounts/billpay/schedulepayments">Bill Pay</option>';
+	loglist+='	<option value="/e/t/user/xfr?Target=/e/t/creditcard/cctransactionhistory">Credit Cards</option>';
+	loglist+='	<option value="/e/t/stockplan/overview">Stock Plan</option>';
+	loglist+='	</select>';
+
+document.write(loglist);	
+
+checkForStartInCookie();
+
+
+</script><select name="TARGET" style="width: 100%;" onchange="javascript:saveStart();">	<option value="/e/t/accounts/accountscombo">Accounts</option>	<option value="/e/t/pfm/portfolioview">Portfolios</option>	<option value="/e/t/invest/socreateentry">Stock Trade</option>	<option value="/e/t/invest/optionorderentry">Options Trade</option>	<option value="/e/t/invest/pethome?protect">Active Trading</option>	<option value="/e/t/invest/markets?protect">Markets</option>	<option value="/e/t/user/xfr?Target=https://bankus.etrade.com/e/t/ibank/accountdetails">Bank Accounts</option>	<option value="/e/t/user/xfr?Target=https://bankus.etrade.com/e/t/accounts/billpay/schedulepayments">Bill Pay</option>	<option value="/e/t/user/xfr?Target=/e/t/creditcard/cctransactionhistory">Credit Cards</option>	<option value="/e/t/stockplan/overview">Stock Plan</option>	</select>
+</td>
+			</tr>
+        	
+        	
+        	
+        	<tr>
+        		<td>&nbsp;</td>
+				<td style="padding-top: 5px;" valign="bottom">
+				<input alt="Log On" src="hilp123_files/b_logon_06.gif" name="Logon" border="0" height="20" type="image" width="78">
+				
+				</td>
+			</tr>
+			<tr>
+
+				<td colspan="2" style="padding-top: 10px;" align="right" valign="bottom">
+				<b>Forgot your 
+					<a href="https://us.etrade.com/e/t/user/resetpasswdpageone">
+					User ID</a> 
+				
+				
+				or
+				 
+                <a href="https://us.etrade.com/e/t/user/resetpasswdpageone">
+                Password
+                
+                 
+                 ?</a>
+                
+				</b></td>
+
+			</tr>
+			</tbody></table>
+			</td>
+			
+			
+
+
+
+<td align="right" valign="top">			
+<br>
+
+<table border="0" cellpadding="0" cellspacing="2" width="470">
+<tbody><tr>
+<td align="right" valign="top" width="170"><a href="https://us.etrade.com/e/t/welcome/openanaccount"><img alt="Clock" src="hilp123_files/clock.gif" border="0" height="39" width="40"></a></td>
+<td align="left" valign="middle" width="170">
+<a href="https://us.etrade.com/e/t/welcome/openanaccount" style="text-decoration: none;"><span style="font-size: 14px; font-family: arial; font-weight: bold; color: rgb(102, 51, 204); margin-left: 5px;"> OPEN AN ACCOUNT</span></a><br>
+<a href="https://us.etrade.com/e/t/welcome/openanaccount" style="text-decoration: none;"><span style="font-size: 12px; font-family: arial; color: rgb(102, 102, 102); margin-left: 5px;">in Minutes</span></a>
+</td>
+<td style="padding-top: 2px;" align="right" valign="top" width="130"><a href="https://us.etrade.com/e/t/welcome/openanaccount"><img alt="Apply Now" src="hilp123_files/applyNow.gif" border="0" height="23" width="90"></a><br>
+</td>
+</tr>
+
+<tr><td colspan="3" align="right"><br><img src="hilp123_files/dottedLine.gif" border="0" height="1" width="346"> <br><br></td></tr>
+
+<tr>
+<td align="right" valign="top"><a href="https://us.etrade.com/e/t/onlineenroll"><img alt="Monitor" src="hilp123_files/monitor.gif" border="0" height="38" width="40"></a></td>
+<td align="left" valign="middle"><a href="https://us.etrade.com/e/t/onlineenroll" style="text-decoration: none;"><span style="font-size: 14px; font-family: arial; font-weight: bold; color: rgb(102, 51, 204); margin-left: 5px;">NOT ONLINE?</span></a>
+</td>
+<td style="padding-top: 2px;" align="right" valign="middle"><a href="https://us.etrade.com/e/t/onlineenroll"><img alt="Enroll Now" src="hilp123_files/enroll.gif" border="0" height="23" width="125"></a></td>
+</tr>
+
+<tr>
+<td align="right" valign="top">&nbsp;</td>
+<td colspan="2" align="left" valign="top"> <a href="https://us.etrade.com/e/t/onlineenroll" style="text-decoration: none;"><span style="font-size: 12px; font-family: arial; color: rgb(102, 102, 102); margin-left: 5px;"> Set Up Online Account Access</span></a>
+</td>
+</tr>
+</tbody></table>
+
+
+
+
+</td>
+</tr>
+
+<tr>
+<td colspan="10" class="disclaimer" align="center" valign="top"><br><br>For Chinese language investors, we now offer <a href="https://us.etrade.com/e/t/util/preferences?locale=zh_TW"> E*TRADE Chinese</a>. <br><br></td>
+</tr>
+</tbody></table>
+
+<div class="clr"></div>
+<div style="margin-left: 15px ! important;"><img alt="SafeGuard Your Account" src="hilp123_files/safe_icon.gif" border="0" height="34" width="42"> <span style="vertical-align: 50%;"> &nbsp; <b> 3 EASY WAYS TO SAFEGUARD YOUR ACCOUNT</b> </span></div> 
+<div class="clr"></div>
+<div class="subheaderBtm" style="margin-left: 15px; width: 740px ! important;">
+<table id="LOB">
+<tbody><tr>
+<td><ul id="LOBul"><li><b><a href="https://us.etrade.com/e/t/prospectestation/help?id=1220000000">Request an E*TRADE <br>
+Digital Security ID</a></b><br> Makes unauthorized log-on <br>
+virtually impossible.
+ </li></ul></td>
+
+<td class="rtBrd"></td>
+
+<td style="padding-left: 10px;"><ul id="LOBul"><li><a href="https://us.etrade.com/e/t/prospectestation/help?id=1220000000"><b>Enroll for Electronic Documents</b></a> <br>Securely receive account <br>
+statements online. <br><br>
+</li></ul></td>
+
+<td class="rtBrd"></td>
+
+<td style="padding-left: 10px;"><ul id="LOBul"><li><a href="https://us.etrade.com/e/t/prospectestation/help?id=1220000000"><b>Set Smart Alerts</b></a> <br>
+Receive instant notification of<br>
+account activity.  <br><br>
+</li></ul></td>
+</tr>
+</tbody></table>
+</div>
+</td></tr></tbody></table>
+
+<p style="text-align: center; font-weight: bold;"><a href="https://us.etrade.com/e/t/prospectestation/help?id=1220000000">Visit our Online Security Center to learn more</a>.</p>
+</form></div>
+<!-- End Main Table -->
+
+<div class="clr"></div>
+</div>
+
+<div id="etFooter"> <!--FOOTER-->
+<map name="flMap"><area alt="E*TRADE Complete Protection Guarantee" coords="1,0,160,40" href="https://us.etrade.com/e/t/welcome/securityguarantee"><area alt="Member FDIC" coords="180,0,330,40" href="javascript:GoToETURL('/e/t/prospectestation/pricing?id=1600000001','etrade');"><area alt="SIPC" coords="340,0,540,40" href="javascript:GoToETURL('/e/t/prospectestation/pricing?id=1600000003','etrade');"><area alt="Verisign Secured" coords="635,0,712,40" href="javascript:etWin('https://seal.verisign.com/splash?form_file=fdf/splash.fdf&dn=US.ETRADE.COM&lang=en','verisign',518,410,'no','no','no','no','yes',5,5,'');">
+  
+  
+  
+  
+</map>
+<map name="f2Map"><area alt="E*TRADE Complete Protection Guarantee" coords="1,0,170,53" href="https://us.etrade.com/e/t/welcome/securityguarantee"><area alt="SIPC" coords="200,0,400,53" href="javascript:GoToETURL('/e/t/prospectestation/pricing?id=1600000003','etrade');"><area alt="Verisign Secured" coords="430,0,506,53" href="javascript:etWin('https://seal.verisign.com/splash?form_file=fdf/splash.fdf&dn=US.ETRADE.COM&lang=en','verisign',518,410,'no','no','no','no','yes',5,5,'');">
+  
+  
+  
+</map>
+<map name="f3Map"><area alt="E*TRADE Complete Protection Guarantee" coords="1,0,160,39" href="https://us.etrade.com/e/t/welcome/securityguarantee"><area alt="Member FDIC" coords="180,0,330,39" href="javascript:GoToETURL('/e/t/prospectestation/pricing?id=1600000001','etrade');"><area alt="Verisign Secured" coords="430,0,505,39" href="javascript:etWin('https://seal.verisign.com/splash?form_file=fdf/splash.fdf&dn=US.ETRADE.COM&lang=en','verisign',518,410,'no','no','no','no','yes',5,5,'');">
+  
+  
+  
+</map>
+<div id="etFooterLinks">
+  <table width="100%"><tbody><tr>
+    <td><a href="https://us.etrade.com/e/t/corporateservices" target="new">Corporate Services</a></td>
+    <td><a href="javascript:GoToETURL('/e/t/welcome/securityguarantee','etrade');">E*TRADE Complete<sup>TM</sup><br>Protection Guarantee</a></td>
+    <td><a href="https://us.etrade.com/e/t/home/aboutus" target="new" style="margin-right: 0px;">About E*TRADE</a> /<br><a href="https://investor.etrade.com/">Investor Relations</a></td>
+    <td><a href="javascript:GoToETURL('/e/t/prospectestation/pricing?id=1201010000','etrade');">Forms &amp; Applications</a></td>
+    <td><a href="https://capitalmarkets.etrade.com/e/t/capitalmarkets/home" target="_blank">Capital Markets</a></td>
+    <td><a href="javascript:GoToETURL('/e/t/welcome/contactus','etrade');">Contact Us</a></td>
+  </tr></tbody></table>
+  <div id="ftGrad"></div>
+</div>
+<div id="etDisclosures"></div>
+
+
+ 
+ 
+
+
+ 
+  <img usemap="#flMap" src="hilp123_files/all_logos_home_footer.gif" height="39" width="712">
+ 
+
+
+ 
+
+
+  
+
+<div class="legal">
+  <strong>PLEASE READ THE IMPORTANT DISCLOSURES BELOW.</strong>
+  
+   
+  
+
+  <p>Securities products and services offered by E*TRADE Securities LLC, Member <a href="javascript:etWin('http://www.finra.org/','FINRA',835,625,'no','no','yes','no','yes',20,20,'');">FINRA</a>/<a target="_blank" href="http://www.sipc.org/">SIPC</a>. Banking and lending products and services are offered  by E*TRADE Bank, a Federal savings bank, <a href="javascript:GoToETURL('/e/t/prospectestation/pricing?id=1600000001','etrade');">Member FDIC</a>, or its subsidiaries. E*TRADE Securities LLC and E*TRADE Bank are separate but affiliated companies.</p>
+
+
+  
+   
+    <p style="font-weight: bold;">System
+response and account access times may vary due to a variety of factors,
+including trading volumes, market conditions, system performance, and
+other factors.</p>
+    <p>
+     <a href="javascript:GoToETURL('/e/t/welcome/welstatic?gxml=financialcondition.html','etrade');">Statement of Financial Condition</a> |  
+     <a href="javascript:GoToETURL('/e/t/welcome/welstatic?gxml=brk_insurance.html','etrade');">About Brokerage Insurance</a>  |  
+     <a href="javascript:GoToETURL('/e/t/prospectestation/pricing?id=1201070000','etrade');">Customer Account Agreements</a>  |
+     <a href="javascript:GoToETURL('/e/t/prospectestation/pricing?id=1209010000','etrade');">Privacy Statement</a>  |
+     <a href="https://content.etrade.com/etrade/powerpage/pdf/OrderRouting11AC6.pdf" target="new">Quarterly 606 Report</a>
+    </p>
+   
+   
+    <p>
+ 
+  
+ 
+      <a href="javascript:GoToETURL('/e/t/prospectestation/pricing?id=1209028000','etrade');">Business Continuity Plan</a>  |  
+      <a href="javascript:GoToETURL('/e/t/prospectestation/pricing?id=1220000000','etrade');">Online Security</a>  |  
+      <a href="javascript:GoToETURL('/e/t/welcome/sitemap','etrade');">Site Map</a> |
+      <a href="javascript:etURL.open('/e/t/career/introduction','etrade');">Careers@etrade</a>
+    </p>
+
+    © 2007
+    E*TRADE FINANCIAL Corp. All rights reserved. Version 1.0 24w23m3
+  </div>
+
+</div>
+</div>
+<div class="spc20">&nbsp;</div>
+</div>
+
+
+
+
+
+<!-- stop page starts here -->
+
+    <script type="text/javascript" src="hilp123_files/dcs.js" language="JavaScript"></script>
+    <script type="text/javascript" language="JavaScript">setRC();</script>
+	</div></body></html>
